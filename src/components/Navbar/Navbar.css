@@ -1,0 +1,58 @@
+@media screen and (min-width: 600px ) {
+  .container {
+    margin: 0.7rem 4rem;
+    height: 2rem;
+  }
+
+  .crypto-tracker-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .crypto-tracker-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0rem;
+  }
+
+  .burger-log {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5rem;
+    width: 5%;
+  }
+
+  .crypto-tracker-navbar-sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        height: 4rem;
+    }
+    .crypto-tracker-navbar {
+        display: none;
+    }
+    .crypto-tracker-navbar-sm {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1.5rem;
+
+    }
+
+    .search-icon {
+        visibility: hidden;
+    }
+    .crypto-tracker-logo{
+        margin-left: .8rem;
+    }
+
+}

@@ -1,0 +1,108 @@
+h5 {
+    margin-top: 3rem;
+    
+}
+.sub-headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.left-headings > span{
+    border: 1px solid #EFF2F5;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #EFF2F5;
+    
+}
+
+.right-heading > span{
+    border: 1px solid #EFF2F5;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #EFF2F5;
+    
+}
+table {
+    width: 100%;
+    margin-top: 2rem;
+}
+.table-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-table > thead > tr{
+    border: 1px solid grey;
+    border-width: .5px 0px .5px 0px
+    
+}
+.main-table > tbody > tr{
+    border: 1px solid grey;
+    border-width: .5px 0px .5px 0px
+    
+}
+
+.pagination{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5px;
+    margin-top: 1rem;
+}
+
+.pagination .page-num {
+    padding: 4px 9px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 400;
+    color: rgb(92, 85, 85);
+    border: 2px solid rgb(92, 85, 85);
+}
+
+.pagination .page-num:hover {
+    /* background-color: rgb(92, 85, 85); */
+    color: rgb(45, 45, 211);
+    border-color: rgb(45, 45, 211);
+}
+
+.pagination .active{
+   
+    color: rgb(45, 45, 211);
+    border-color: rgb(45, 45, 211);
+}
+
+
+@media screen and (max-width: 599px) {
+    .sub-headings{
+        display: none;
+        
+    }
+    
+    .d7{
+        display: none;
+    }
+    .market-cap{
+        display: none;
+    }
+    .volume{
+        display: none;
+    }
+    .circulating-supply{
+        display: none;
+    }
+    .more{
+        display: none;
+    }
+}
+/* .row-image{
+    width: 5%;
+} */

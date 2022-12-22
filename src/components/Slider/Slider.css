@@ -1,0 +1,80 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: fit-content;
+  }
+  .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  }
+  .card-img {
+    width: 10%;
+  }
+  .item{
+    display: flex;
+    flex-direction: row;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #1c1c1d;
+    
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    border: 2px solid rgb(53, 52, 52);
+    /* top: 110%; */
+    transform: translateY(-50%);
+    
+  }
+  .carousel-control-prev{
+    margin-top: 3.5rem;
+    margin-left: -1rem;
+  }
+  .carousel-control-next{
+    margin-top: 3.5rem;
+    margin-right: -1rem;
+  }
+  @media (max-width: 768px) {
+    .card img {
+      height: 15em;
+    }
+    .carousel-control-prev{
+      /* margin-left: 70%;
+      margin-top: 45%; */
+      display: none;
+    }
+    .carousel-control-next{
+      /* margin-right: 30%;
+      margin-top: 45%; */
+      display: none;
+    }
+  }
+  
+  .span {
+    margin-left: 2rem;
+    color: rgb(42, 119, 182);
+  }
+  
+  .icon {
+    float: right;
+  }
